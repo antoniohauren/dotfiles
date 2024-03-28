@@ -12,3 +12,4 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 vim.wo.number = true
 vim.wo.relativenumber = true
+vim.o.signcolumn = "yes"
