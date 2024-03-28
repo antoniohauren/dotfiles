@@ -13,3 +13,7 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.o.signcolumn = "yes"
+
+vim.opt.list = true
+vim.opt.listchars:append({ tab = '¬ ', space = '·', trail = "·" })
+
