@@ -15,5 +15,4 @@ vim.wo.relativenumber = true
 vim.o.signcolumn = "yes"
 
 vim.opt.list = true
-vim.opt.listchars:append({ tab = '¬ ', space = '·', trail = "·" })
-
+vim.opt.listchars:append({ tab = "¬ ", space = "·", trail = "·" })
