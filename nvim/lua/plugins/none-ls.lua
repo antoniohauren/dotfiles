@@ -6,7 +6,7 @@ return {
     null_ls.setup({
       sources = {
         null_ls.builtins.formatting.stylua,
-        -- null_ls.builtins.formatting.biome,
+
         null_ls.builtins.formatting.biome.with({
           condition = function(u)
             return u.root_has_file({ "biome.json" })

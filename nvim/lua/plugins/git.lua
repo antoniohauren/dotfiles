@@ -9,16 +9,8 @@ return {
 
       gs.setup()
 
-      local preview = function()
-        gs.preview_hunk()
-      end
-
-      local blame_line = function()
-        gs.toggle_current_line_blame()
-      end
-
-      vim.keymap.set("n", "<leader>gp", preview, {})
-      vim.keymap.set("n", "<leader>gl", blame_line, {})
+      vim.keymap.set("n", "<leader>gp", gs.preview_hunk, {})
+      vim.keymap.set("n", "<leader>gl", gs.toggle_current_line_blame, {})
     end,
   },
 }
